@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plan a Plant - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .top-bar {
+            background-color: #01370C;
+            color: white;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+            .top-bar .discount-text {
+                font-size: 16px;
+            }
+
+            .top-bar .icons {
+                position: absolute;
+                right: 120px;
+                display: flex;
+                gap: 24px;
+            }
+
+                .top-bar .icons img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+        .nav-menu {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 120px;
+            height: 80px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+            .nav-left img {
+                width: 133px;
+                height: 51px;
+            }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+
+            .nav-links .link {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                font-weight: 600;
+                font-size: 18px;
+                color: #343434;
+                cursor: pointer;
+            }
+
+            .nav-links .active {
+                color: #3B823E;
+            }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            border: 1px solid #343434;
+            border-radius: 6px;
+            padding: 0 8px;
+            width: 203px;
+            height: 40px;
+        }
+
+            .search-bar img {
+                width: 24px;
+                height: 24px;
+                opacity: 0.5;
+            }
+
+            .search-bar span {
+                margin-left: 8px;
+                color: rgba(52, 52, 52, 0.5);
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+        .hero {
+            background: url('/img/fashion.jpg') no-repeat center;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero-title {
+            font-size: 60px;
+            font-weight: 600;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero-desc {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+        }
+
+
+        .plant-section {
+            padding: 40px 120px;
+        }
+
+        .see-all {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+            .see-all a {
+                color: #3B823E;
+                text-decoration: underline;
+                font-size: 16px;
+            }
+
+        .categories {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+        }
+
+        .category {
+            text-align: center;
+            flex: 1;
+        }
+
+            .category img {
+                height: 180px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.16);
+            }
+
+            .category span {
+                display: block;
+                margin-top: 12px;
+                font-size: 16px;
+                color: #343434;
+            }
+
+
+
+
+        .Details {
+            width: 1200px;
+            left: 120px;
+            top: 176px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 80px;
+        }
+
+        .ProductImages {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .Image {
+            width: 560px;
+            height: 421px;
+            object-fit: cover;
+            box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+            border-radius: 8px;
+        }
+
+        .Thumbnails {
+            display: flex;
+            gap: 12px;
+        }
+
+            .Thumbnails img {
+                width: 113px;
+                height: 108px;
+                object-fit: cover;
+                border-radius: 8px;
+                box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+                cursor: pointer;
+            }
+
+            .Thumbnails .selected {
+                outline: 4px #3B823E solid;
+                outline-offset: -2px;
+            }
+
+        .ProductDetails {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: 486px;
+        }
+
+        .Frame82 {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .Frame83 {
+            display: flex;
+            position: absolute;
+            top: 800px;
+            left: 170px;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .Frame81 {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .Frame63 {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .HoyaLinearis {
+            font-size: 32px;
+            font-weight: 700;
+            color: #343434;
+        }
+
+        .Frame62 {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+            .Frame62 div {
+                font-size: 32px;
+                color: #343434;
+            }
+
+            .Frame62 .old-price {
+                font-size: 24px;
+                color: rgba(209, 30, 30, 0.5);
+                text-decoration: line-through;
+                font-weight: 300;
+            }
+
+        .L {
+            color: rgba(52, 52, 52, 0.6);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .Frame78 {
+            display: flex;
+            align-items: center;
+            gap: 70px;
+        }
+
+        .Quantity {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 20px;
+            color: #343434;
+        }
+
+        .Frame69 {
+            display: flex;
+            align-items: center;
+            border: 2px solid #343434;
+            border-radius: 4px;
+            padding: 4px;
+        }
+
+            .Frame69 > div {
+                width: 28px;
+                height: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+                cursor: pointer;
+                user-select: none;
+            }
+
+        .qty-number {
+            width: 30px;
+            text-align: center;
+        }
+
+        .AddToCartButton {
+            width: 344px;
+            height: 64px;
+            background: #3B823E;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.13);
+            cursor: pointer;
+        }
+
+        .AddToCart {
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="discount-text">Use code FIRST50 for a 50% discount on your first order!</div>
+        <div class="icons">
+            <img src="/img/shoppingcart.svg" alt="Cart">
+            <img src="/img/account.svg" alt="Account">
+        </div>
+    </div>
+
+    <div class="nav-menu">
+        <div class="nav-left">
+            <img src="/img/logo2.svg" alt="Logo" style="width: 155px; height: auto;">
+
+            <div class="nav-links">
+                <div class="link active">Home</div>
+                <div class="link">Shop </div>
+                <div class="link">New </div>
+                <div class="link">Drops </div>
+                <div class="link">About</div>
+            </div>
+        </div>
+        <div class="search-bar">
+            <img src="/img/search.svg" alt="Search">
+            <span>Search</span>
+        </div>
+    </div>
+
+    <div class="Details">
+
+        <div class="ProductImages">
+            <img id="mainImage" class="Image" src="/img/image1.jpg" />
+            <div class="Thumbnails">
+                <img class="thumb selected" src="/img/image1.jpg" />
+                <img class="thumb" src="/img/image2.jpg" />
+                <img class="thumb" src="/img/image3.jpg" />
+                <img class="thumb" src="/img/image4.jpg" />
+            </div>
+        </div>
+
+        <div class="ProductDetails">
+            <div class="Frame82">
+                <div class="Frame81">
+                    <div class="Frame63">
+                        <div class="HoyaLinearis">Coastline Classic Tee</div>
+                        <div class="Frame62">
+                            <div>$25</div>
+                            <div class="old-price">$29</div>
+                        </div>
+                    </div>
+                    <div class="L">Breeze through your day with the Coast Tee — inspired by the calm, clean lines of the shoreline. Lightweight, breathable, and cut for comfort, it’s your go-to piece for effortless coastal style no matter where you are.</div>
+                </div>
+
+                <div class="Frame78">
+                    <div class="Quantity">
+                        Quantity
+                        <div class="Frame69">
+                            <div id="decrease">-</div>
+                            <div id="qty" class="qty-number">1</div>
+                            <div id="increase">+</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="AddToCartButton">
+                    <div class="AddToCart">Add to Cart</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const mainImage = document.getElementById("mainImage");
+              const thumbs = document.querySelectorAll(".thumb");
+
+              thumbs.forEach((thumb) => {
+                thumb.addEventListener("click", () => {
+                  mainImage.src = thumb.src;
+                  thumbs.forEach(t => t.classList.remove("selected"));
+                  thumb.classList.add("selected");
+                });
+              });
+
+
+        const qtyDisplay = document.getElementById("qty");
+        document.getElementById("increase").onclick = () => {
+          qtyDisplay.innerText = parseInt(qtyDisplay.innerText) + 1;
+        };
+        document.getElementById("decrease").onclick = () => {
+          const current = parseInt(qtyDisplay.innerText);
+          if (current > 1) qtyDisplay.innerText = current - 1;
+        };
+    </script>
+
+    <div class="Frame83">
+        <div style="font-size: 20px; font-weight: 600; color: #343434;">Customer Reviews</div>
+
+        <div style="display: flex; flex-direction: column; gap: 24px;">
+
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="font-weight: 600; font-size: 16px;">Robert L</div>
+                <div style="font-size: 14px; color: #777;">Dec 29, 2023</div>
+                <div style="font-size: 16px; color: #FFD700;">★★★★★</div>
+                <div style="font-weight: 300; font-size: 16px; color: rgba(52, 52, 52, 0.75);">
+                    Great quality, very satisfied!
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="font-weight: 600; font-size: 16px;">James H</div>
+                <div style="font-size: 14px; color: #777;">Dec 27, 2023</div>
+                <div style="font-size: 16px; color: #FFD700;">★★★★☆</div>
+                <div style="font-weight: 300; font-size: 16px; color: rgba(52, 52, 52, 0.75);">
+                    Good experience. Just wish shorter time span from order to delivery in mail.
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="font-weight: 600; font-size: 16px;">Donald G</div>
+                <div style="font-size: 14px; color: #777;">Sep 2, 2022</div>
+                <div style="font-size: 16px; color: #FFD700;">★★★★★</div>
+                <div style="font-weight: 300; font-size: 16px; color: rgba(52, 52, 52, 0.75);">
+                    Fast delivery and excellent quality.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div data-layer="Section Hot Sale" class="SectionHotSale" style="width: 1200px; left: 100px; top: 1300px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: center; gap: 28px; display: inline-flex">
+        <div data-layer="Frame 42" class="Frame42" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 15px; display: flex">
+            <div data-layer="You May Also Like..." class="YouMayAlsoLike" style="text-align: center; color: #343434; font-size: 48px; font-family: Unna; font-weight: 700; word-wrap: break-word">You May Also Like...</div>
+        </div>
+        <div data-layer="Frame 66" class="Frame66" style="align-self: stretch; height: 370px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+            <div data-layer="Frame 30" class="Frame30" style="align-self: stretch; height: 369.50px; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                <div data-layer="Card 3" data-type="Discount" class="Card3" style="flex: 1 1 0; align-self: stretch; padding: 20px; background: white; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                    <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; flex: 1 1 0; padding: 8px; border-radius: 8px; background-image: url(img/image5.jpg);background-size: cover;background-position: center; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                        <div data-layer="Frame 64" class="Frame64" style="align-self: stretch; height: 64px; position: relative">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                        <div data-layer="Hibiscus" class="Hibiscus" style="align-self: stretch; flex: 1 1 0; opacity: 0; text-align: center; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 24px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Hibiscus</div>
+                        <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; height: 64px; position: relative; opacity: 0">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 63" class="Frame63" style="align-self: stretch; padding-left: 8px; padding-right: 8px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 4px; display: flex">
+                        <div data-layer="Plant Name" class="PlantName" style="align-self: stretch; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Urban Drift Oversized Tee</div>
+                        <div data-layer="Frame 62" class="Frame62" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                            <div data-layer="₹ 350" class="350" style="text-align: center; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">$29</div>
+                            <div data-layer="₹ 450" class="450" style="text-align: center; color: #D11F1F; font-size: 16px; font-family: Open Sans; font-weight: 300; text-decoration: line-through; word-wrap: break-word">$ 450</div>
+                        </div>
+                    </div>
+                    <div data-layer="Button 2" class="Button2" style="align-self: stretch; height: 64px; padding: 8px; background: #3B823E; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 8px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div data-layer="See Product" class="See Product" style="flex: 1 1 0; text-align: center; color: white; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">See Product</div>
+                    </div>
+                </div>
+                <div data-layer="Card 4" data-type="Discount" class="Card4" style="flex: 1 1 0; align-self: stretch; padding: 20px; background: white; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                    <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; flex: 1 1 0; padding: 8px; border-radius: 8px; background-image: url(img/image6.png);background-size: cover;background-position: center; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                        <div data-layer="Frame 64" class="Frame64" style="align-self: stretch; height: 64px; position: relative">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                        <div data-layer="Hibiscus" class="Hibiscus" style="align-self: stretch; flex: 1 1 0; opacity: 0; text-align: center; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 24px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Hibiscus</div>
+                        <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; height: 64px; position: relative; opacity: 0">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 63" class="Frame63" style="align-self: stretch; padding-left: 8px; padding-right: 8px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 4px; display: flex">
+                        <div data-layer="Plant Name" class="PlantName" style="align-self: stretch; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Everyday Soft Crew</div>
+                        <div data-layer="Frame 62" class="Frame62" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                            <div data-layer="₹ 350" class="350" style="text-align: center; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">$29</div>
+                            <div data-layer="₹ 450" class="450" style="text-align: center; color: #D11F1F; font-size: 16px; font-family: Open Sans; font-weight: 300; text-decoration: line-through; word-wrap: break-word">$ 450</div>
+                        </div>
+                    </div>
+                    <div data-layer="Button 2" class="Button2" style="align-self: stretch; height: 64px; padding: 8px; background: #3B823E; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 8px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div data-layer="See Product" class="Buy" style="flex: 1 1 0; text-align: center; color: white; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">See Product</div>
+                    </div>
+                </div>
+                <div data-layer="Card 5" data-type="Discount" class="Card5" style="flex: 1 1 0; align-self: stretch; padding: 20px; background: white; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                    <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; flex: 1 1 0; padding: 8px; border-radius: 8px; background-image: url(img/image7.jpg);background-size: cover;background-position: center; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                        <div data-layer="Frame 64" class="Frame64" style="align-self: stretch; height: 64px; position: relative">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                        <div data-layer="Hibiscus" class="Hibiscus" style="align-self: stretch; flex: 1 1 0; opacity: 0; text-align: center; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 24px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Hibiscus</div>
+                        <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; height: 64px; position: relative; opacity: 0">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 63" class="Frame63" style="align-self: stretch; padding-left: 8px; padding-right: 8px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 4px; display: flex">
+                        <div data-layer="Plant Name" class="PlantName" style="align-self: stretch; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Sunset Fade Pocket Tee</div>
+                        <div data-layer="Frame 62" class="Frame62" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                            <div data-layer="₹ 350" class="350" style="text-align: center; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">$29</div>
+                            <div data-layer="₹ 450" class="450" style="text-align: center; color: #D11F1F; font-size: 16px; font-family: Open Sans; font-weight: 300; text-decoration: line-through; word-wrap: break-word">$ 450</div>
+                        </div>
+                    </div>
+                    <div data-layer="Button 2" class="Button2" style="align-self: stretch; height: 64px; padding: 8px; background: #3B823E; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 8px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div data-layer="See Product" class="See Product" style="flex: 1 1 0; text-align: center; color: white; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">See Product</div>
+                    </div>
+                </div>
+                <div data-layer="Card 6" data-type="Discount" class="Card6" style="flex: 1 1 0; align-self: stretch; padding: 20px; background: white; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 16px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                    <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; flex: 1 1 0; padding: 8px; border-radius: 8px; background-image: url(img/image8.jpg);background-size: cover;background-position: center; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                        <div data-layer="Frame 64" class="Frame64" style="align-self: stretch; height: 64px; position: relative">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                        <div data-layer="Hibiscus" class="Hibiscus" style="align-self: stretch; flex: 1 1 0; opacity: 0; text-align: center; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 24px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Hibiscus</div>
+                        <div data-layer="Frame 65" class="Frame65" style="align-self: stretch; height: 64px; position: relative; opacity: 0">
+                            <div data-layer="25% off" class="Off" style="left: 181px; top: 16px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 12px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">25%<br />off</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 63" class="Frame63" style="align-self: stretch; padding-left: 8px; padding-right: 8px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 4px; display: flex">
+                        <div data-layer="Plant Name" class="PlantName" style="align-self: stretch; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">Shoreline Relaxed Teee</div>
+                        <div data-layer="Frame 62" class="Frame62" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                            <div data-layer="₹ 350" class="350" style="text-align: center; color: #343434; font-size: 20px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">$29</div>
+                            <div data-layer="₹ 450" class="450" style="text-align: center; color: #D11F1F; font-size: 16px; font-family: Open Sans; font-weight: 300; text-decoration: line-through; word-wrap: break-word">$ 450</div>
+                        </div>
+                    </div>
+                    <div data-layer="Button 2" class="Button2" style="align-self: stretch; height: 64px; padding: 8px; background: #3B823E; box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13); border-radius: 8px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div data-layer="See Product" class="See Product" style="flex: 1 1 0; text-align: center; color: white; font-size: 20px; font-family: Open Sans; font-weight: 700; word-wrap: break-word">See Product</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
