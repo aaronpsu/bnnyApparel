@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|c:\\users\\admin\\source\\repos\\bnnyapparel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|c:\\users\\admin\\source\\repos\\bnnyapparel\\views\\shop\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|solutionrelative:views\\shop\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|c:\\users\\admin\\source\\repos\\bnnyapparel\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|c:\\users\\admin\\source\\repos\\bnnyapparel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|c:\\users\\admin\\source\\repos\\bnnyapparel\\views\\shop\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|solutionrelative:views\\shop\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|c:\\users\\admin\\source\\repos\\bnnyapparel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|c:\\users\\admin\\source\\repos\\bnnyapparel\\wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB7362C8-ECE3-42EE-9586-654C889BBF23}|bnnyApparel.csproj|solutionrelative:wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:15:43.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Views\\Shop\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Views\\Shop\\Shop.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Shop.cshtml",
+              "ViewState": "AgIAACQBAAAAAAAAAAAswEUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T05:15:33.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:15:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T05:14:21.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Homepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Views\\Shop\\Homepage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Homepage.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Views\\Shop\\Homepage.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Homepage.cshtml",
+              "ViewState": "AgIAADoBAAAAAAAAAAAswEYBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T05:13:49.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:13:22.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "global.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\wwwroot\\css\\global.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\global.css",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\bnnyApparel\\wwwroot\\css\\global.css",
+              "RelativeToolTip": "wwwroot\\css\\global.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-03T05:12:41.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
